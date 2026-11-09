@@ -1,0 +1,8 @@
+command: ['python', 'app.py']
+env:
+  - name: 'DATABRICKS_WAREHOUSE_ID'
+    value: '<warehouse-id>'
+  - name: 'APP_CATALOG'
+    value: 'main'
+  - name: 'APP_SCHEMA'
+    value: 'banking'
